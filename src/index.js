@@ -1,7 +1,7 @@
 import backTopComp from "./buttonComp.vue";
 const backTop = {
   install(Vue, options) {
-    Vue.component(backTop, backTopComp);
+    Vue.component(backTopgi, backTopComp);
   }
 };
 if (typeof window !== "undefined" && window.Vue) {
